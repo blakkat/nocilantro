@@ -5,3 +5,4 @@ body {position: relative;  height: 100vh; background: #FFF; padding: 0; margin:0
 .cilantro {background:url('cilantro.png'); width: 63px; height: 66px; position: absolute;cursor: pointer;}
 #score {position: relative; z-index: 10; background: rgba(255,255,255,0.25); padding: 5px; color: #FFF; display: inline; box-sizing: border-box; top: 5px;}
 .cilantro.on:after {content:"BOOM!"; position: absolute; top: 0; left: 0; color: #FFF; background: #000; padding: 5px;}
+.parsley {background:url('parsley.png'); width: 60px; height: 40px; position: absolute;cursor: pointer;}
