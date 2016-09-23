@@ -1,4 +1,7 @@
-var viewportHeight = Number(window.innerHeight,10),
+document.getElementById("startgame").addEventListener("click", function(e){
+    e.preventDefault()
+	document.getElementsByClassName('intro')[0].style.display = "none";
+	var viewportHeight = Number(window.innerHeight,10),
     viewportWidth = Number(window.innerWidth,10),
     scoreSign = document.createElement('div'),
 	setCilantro = function() {
@@ -45,4 +48,6 @@ document.getElementsByTagName('body')[0].appendChild(scoreSign),
 scoreSign.innerHTML = "Score: <span id='scoreNum'>0</span>",
 scoreSign.id = "score"
 
-setInterval(setCilantro, 200);
+setInterval(setCilantro, 100);
+});
+
